@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card, Button, Modal } from "react-bootstrap";
-import SelectedBeast from "./SelectedBeast ";
+// import SelectedBeast from "./SelectedBeast ";
 export class HornedBeast extends Component {
   constructor(props) {
     super(props);
