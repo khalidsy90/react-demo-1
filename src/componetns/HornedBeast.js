@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card, Button, Modal } from "react-bootstrap";
-import SelectedBeast from "./SelectedBeast ";
+// import SelectedBeast from "./SelectedBeast ";
 export class HornedBeast extends Component {
   constructor(props) {
     super(props);
@@ -28,7 +28,6 @@ export class HornedBeast extends Component {
           </Card.Text>
           <Card.Text>{this.state.vote}</Card.Text>
           <Button variant="success" className="w-50 position-relative bottom-5" onClick={increaseVotes}>Vote</Button>
-          {/* <SelectedBeast imageurl={this.props.image_url} key_word={this.props.keyword} title_={this.props.title} description_={this.props.description} vote_={this.state.vote}/> */}
         </Card.Body>
 
         <Modal show={this.state.show} onHide={handleClose} style={{textAlign:'center'}}>
