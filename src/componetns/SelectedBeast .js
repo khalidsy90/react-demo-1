@@ -11,7 +11,6 @@ export class SelectedBeast  extends Component {
             <Modal.Title>{this.props.selected.title}</Modal.Title>
             <p style={{ height: "75px" }}>{this.props.selected.description}</p>
             </Modal.Body>
-            <Modal.Footer>Number of votes  :  {0}</Modal.Footer>
           </Modal>
         )
     }
